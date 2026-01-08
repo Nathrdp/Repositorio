@@ -237,7 +237,23 @@ body {
 
 /* RESPONSIVO */
 @media (max-width: 900px) {
-  .projects-container {
+
+  .topbar {
     flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .menu a {
+    margin: 0;
+    font-size: 14px;
   }
 }
